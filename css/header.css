@@ -16,12 +16,15 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    color: #E8EEF1;
+    font-size: 115%;
 }
 
-#nav-menu {
-    align-items: center;
+li a.nav-link:hover {
+    color: #43B0F1;
+    transition: 0.3s;
 }
 
-#top-icon {
+.top-icon {
     float: left;
 }

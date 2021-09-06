@@ -1,16 +1,24 @@
 # [mustafaa.xyz](https://www.mustafaa.xyz/)
 Source code for my personal portfolio page.
-## Table of Contents
-- [Design](#design)
-  - [Fonts](#fonts)
-  - [Colors](#colors)
-- [Built With](#built-with)
-- [Acknowledgements](#acknowledgements)
+## Index
+- [mustafaa.xyz](#mustafaaxyz)
+  - [Index](#index)
+  - [Design](#design)
+    - [Fonts](#fonts)
+    - [Colors](#colors)
+  - [Built With](#built-with)
+  - [Acknowledgements](#acknowledgements)
 ## Design
 ### Fonts
-Fonts will be chosen soon
+[Fira Code](https://fonts.google.com/specimen/Fira+Code)
+
+![Example Fira Code](https://i.postimg.cc/XqdFR30b/firacode.jpg)
+
+[Poppins](https://fonts.google.com/specimen/Poppins)
+
+![Example Poppins](https://i.postimg.cc/q7qKk2dQ/poppins.jpg)
 ### Colors
-Aiming for a blue color theme
+![Colors](https://i.postimg.cc/9FfwPGD2/palette.jpg) 
 ## Built With
 * HTML5
 * CSS3
@@ -18,4 +26,7 @@ Aiming for a blue color theme
 * NameCheap for domain name
 ## Acknowledgements
 If you would like to use any of the source code, please reach out to me at mustafa.alhayawi@gmail.com
-This project is still a work in progress and should be completed over time
+
+This project is still a work in progress and should be completed over time.
+
+Please note that I am not a web developer so please excuse any mistakes that I have made. Thank you.

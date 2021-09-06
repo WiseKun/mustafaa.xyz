@@ -1,0 +1,12 @@
+body {
+    margin: 0 10%;
+    background-color: #1E3D58;
+}
+
+.monospace {
+    font-family: 'Fira Code', monospace;
+}
+
+.sans-serif {
+    font-family: 'Poppins', sans-serif;
+}
