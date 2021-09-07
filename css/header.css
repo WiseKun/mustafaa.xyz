@@ -1,30 +1,96 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    float: right;
-    width: 100%;
-}
-
-li {
-    float: right;
-}
-
-li a {
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
+a {
     text-decoration: none;
-    color: #E8EEF1;
-    font-size: 115%;
 }
 
-li a.nav-link:hover {
-    color: #43B0F1;
-    transition: 0.3s;
+header {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    height: 70px;
+    padding: 0 15px;
+    z-index: 2;
 }
 
 .top-icon {
-    float: left;
+    padding: 10px;
+    font-size: 1.2em;
+    letter-spacing: 0.05em;
+}
+
+.nav-menu {
+    list-style-type: none;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    left: 0;
+    min-height: 50%;
+}
+
+.nav-item {
+    text-align: center;
+    display: none;
+}
+
+.nav-item a {
+    display: block;
+    padding: 20px;
+    font-weight: 500;
+    width: 100vw;
+    letter-spacing: 0.1em;
+}
+
+.nav-item a:hover, .nav-item a:focus {
+    color: #43b0f1;
+    transition: 0.3s;
+}
+
+.active {
+    background-color: #6B818C;
+}
+
+.active .nav-item {
+    display: block;
+}
+
+.toggle {
+    padding: 1.1em;
+}
+
+.toggle i {
+    font-size: 2em;
+}
+
+@media only screen and (min-width: 768px) {
+    .nav {
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-menu {
+        position: relative;
+        align-items: center;
+        flex-direction: row;
+        height: fit-content;
+        height: -moz-fit-content;
+    }
+    .nav-item {
+        position: relative;
+        display: block;
+        width: fit-content;
+        width: -moz-fit-content;
+        margin: 0;
+    }
+    .nav-item a {
+        width: fit-content;
+        width: -moz-fit-content;
+        color: #FFFFFF;
+    }
 }

@@ -1,3 +1,8 @@
+* {
+    margin: auto 0;
+    color: #e8eef1;
+}
+
 body {
     margin: 0 10%;
     background-color: #1E3D58;
@@ -9,4 +14,8 @@ body {
 
 .sans-serif {
     font-family: 'Poppins', sans-serif;
+}
+
+.landing-page {
+    margin: 100px;
 }
