@@ -16,6 +16,8 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.landing-page {
-    margin: 100px;
+#home {
+    margin-top: 300px;
+    margin-bottom: 300px;
+    line-height: 400%;
 }
