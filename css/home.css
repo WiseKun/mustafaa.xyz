@@ -8,10 +8,17 @@
     border: 1px solid #43b0f1;
     font-weight: 700;
     letter-spacing: 0.05em;
-    color: #1E3D58;
+    color: #1e3d58;
     background-color: #43b0f1;
     margin-top: 20px;
     line-height: 100%;
+    transition: all 0.3s ease;
+}
+
+.cta:hover {
+    background-color: #057dcd;
+    border: 1px solid #057dcd;
+    padding: 10px 15px;
 }
 
 .landing-page {
@@ -46,11 +53,11 @@ img {
 
 .social-link img {
     filter: invert(100%) sepia(100%) saturate(511%) hue-rotate(200deg) brightness(116%) contrast(100%);
+    transition: all 0.3s ease;
 }
 
 .social-link img:hover {
     filter: invert(63%) sepia(70%) saturate(1921%) hue-rotate(174deg) brightness(98%) contrast(93%);
-    transition: 0.3s;
 }
 
 .socials ul {

@@ -44,11 +44,11 @@ header {
     font-weight: 500;
     width: 100vw;
     letter-spacing: 0.1em;
+    transition: all 0.3s ease;
 }
 
 .nav-item a:hover, .nav-item a:focus {
     color: #43b0f1;
-    transition: 0.3s;
 }
 
 .active {
@@ -91,6 +91,6 @@ header {
     .nav-item a {
         width: fit-content;
         width: -moz-fit-content;
-        color: #FFFFFF;
+        color: #e8eef1;
     }
 }
